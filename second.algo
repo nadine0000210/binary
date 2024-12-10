@@ -1,0 +1,25 @@
+ALGORITHM algorithm_name
+VAR
+    tab := array_name : ARRAY_OF INTEGER[n];
+    j:=INTEGER:=0
+    i:=INTEGER:=1
+    y:=tab.length
+    x:=INTEGER
+    
+
+BEGIN
+    
+        FOR i FROM 1 TO y-1  DO
+            WHILE (t[i]<t[j]) DO
+                t[j]=t[j+1];
+                j:=j+1
+                print(j)
+    
+    END_FOR
+        END_FOR    
+            END_WHILE
+            
+            
+
+            
+END
